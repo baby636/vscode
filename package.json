@@ -55,7 +55,9 @@
     "minify-vscode-reh-web": "node --max_old_space_size=4095 ./node_modules/gulp/bin/gulp.js minify-vscode-reh-web",
     "hygiene": "node --max_old_space_size=4095 ./node_modules/gulp/bin/gulp.js hygiene",
     "core-ci": "node --max_old_space_size=4095 ./node_modules/gulp/bin/gulp.js core-ci",
-    "extensions-ci": "node --max_old_space_size=4095 ./node_modules/gulp/bin/gulp.js extensions-ci"
+    "extensions-ci": "node --max_old_space_size=4095 ./node_modules/gulp/bin/gulp.js extensions-ci",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "applicationinsights": "1.0.8",
@@ -87,7 +89,8 @@
     "xterm-addon-unicode11": "0.3.0-beta.3",
     "xterm-addon-webgl": "0.10.0-beta.1",
     "yauzl": "^2.9.2",
-    "yazl": "^2.4.3"
+    "yazl": "^2.4.3",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "7zip": "0.0.6",
@@ -221,5 +224,6 @@
   "resolutions": {
     "elliptic": "^6.5.3",
     "nwmatcher": "^1.4.4"
-  }
+  },
+  "snyk": true
 }
