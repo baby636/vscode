@@ -56,7 +56,7 @@
   },
   "dependencies": {
     "vscode-codicons": "^0.0.12",
-    "vscode-extension-telemetry": "0.1.1",
+    "vscode-extension-telemetry": "0.4.5",
     "vscode-nls": "^4.0.0"
   },
   "devDependencies": {
