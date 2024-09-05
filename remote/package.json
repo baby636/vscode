@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "applicationinsights": "1.0.8",
-    "chokidar": "3.5.1",
+    "applicationinsights": "2.7.1",
+    "chokidar": "3.5.2",
     "cookie": "^0.4.0",
     "graceful-fs": "4.2.3",
     "http-proxy-agent": "^2.1.0",
